@@ -137,16 +137,6 @@ class EmployeeController extends Controller
             return response()->json([
                 'status' => 'success',
                 'message' => 'Data pegawai berhasil diperbarui',
-                'data' => [
-                    'employee' => [
-                        'id' => $employee->id,
-                        'name' => $employee->name,
-                        'phone' => $employee->phone,
-                        'divisi' => $employee->divisi,
-                        'position' => $employee->position,
-                        'image' => $employee->image ? url($employee->image) : null,
-                    ],
-                ],
             ], 200);
         } catch (\Exception $e) {
             return response()->json([
