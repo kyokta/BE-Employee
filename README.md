@@ -1,13 +1,14 @@
 ## Backend - Employee
 
-Just 
+This project is used to retrieve data from the database using a REST API. The following steps can be used to access the project on a local server.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Clone this project.
+- Run composer install in your terminal.
+- Run php artisan migrate --seed.
+- Import table **nilai** from this project to your database.
+- Run php artisan serve.
+- Use the username **admin** with the password **pastibisa** to login/access the endpoint, or you can view the API testing export file included in this project.
 
+Public url : [rizky.codecrab.my.id](rizky.codecrab.my.id)
 
+Created by : Rizky Oktarinanto
